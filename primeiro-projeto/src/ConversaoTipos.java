@@ -16,6 +16,10 @@ public class ConversaoTipos {
         String numeroStringDois = "1234";
         Integer numeroConvertido = Integer.parseInt(numeroStringDois);
         Double numeroConvertidoDouble = Double.parseDouble(numeroStringDois);
+        Long numeroConvertidoLong = Long.parseLong(numeroStringDois);
+
+        Long numeroLong = 10L;
+        String numeroStringLong = numeroLong.toString();
 
         System.out.println(d);
         System.out.println(int2);
