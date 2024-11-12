@@ -13,14 +13,18 @@ public class EntradaSaidaDeDados {
         String nome = scanner.nextLine();
         System.out.println("Nome: " + nome);
 
+        System.out.println("Qual seu sobrenome? ");
+        String sobreNome = scanner.nextLine();
+        System.out.println("Meu sobre nome: " + sobreNome);
+
         System.out.println("Digite sua idade: ");
         int idade = scanner.nextInt();
         System.out.println("Idade: " + idade);
 
-        System.out.println("Digite se você está empregado sim(true ou não(false)");
+        System.out.println("Digite se você esta empregado sim(true ou não(false)");
         boolean empregado = scanner.nextBoolean();
 
-        System.out.println("Meu nome é: " + nome + " tenho: " + idade + " esta empregado: " + empregado);
+        System.out.println("Meu nome é: " + nome  + " " + sobreNome + " tenho: " + idade + " anos" + " estou empregado: " + empregado);
 
 
     }

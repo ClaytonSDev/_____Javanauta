@@ -3,10 +3,10 @@ public class While {
 
         int contador = 0;
 
-        while (contador<11){
-            System.out.println("Contador" + contador );
-            contador++;
-        }
+//        while (contador<11){
+//            System.out.println("Contador" + contador );
+//            contador++;
+//        }
 
 //        do {
 //            System.out.println("Contador" + contador );
