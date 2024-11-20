@@ -3,6 +3,7 @@ package contabancaria;
 public class Agencia {
     public static void main(String[] args) {
         ContaBancaria minhaConta = new ContaBancaria("Clayton", 1800.00);
+        
         System.out.println("O saldo anterior é : " + minhaConta.getSaldo());
         System.out.println("O titular da conta é : " + minhaConta.getTitular());
 
@@ -25,6 +26,8 @@ public class Agencia {
 
         System.out.println("O titular da conta é : " + titularContamae);
         System.out.println("O saldo da conta é : " + saldoFinalmae);
+
+
 
 
     }
