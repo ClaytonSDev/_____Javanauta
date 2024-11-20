@@ -6,11 +6,15 @@ public class Principal {
         Cachorro caramelo = new Cachorro();
         caramelo.latir();
         caramelo.comer("Ração");
+        caramelo.beberAgua();
+        caramelo.dormir();
 
         Galinha gertrudez = new Galinha();
         gertrudez.ciscar();
         gertrudez.beberAgua();
         gertrudez.comer("Grão de milho");
+        gertrudez.beberAgua();
+        gertrudez.dormir();
 
     }
 }
