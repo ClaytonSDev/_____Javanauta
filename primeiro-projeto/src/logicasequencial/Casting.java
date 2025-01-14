@@ -1,4 +1,6 @@
-public class Util {
+package logicasequencial;
+
+public class Casting {
 
     public static int somar(int a, int b){
         return a+b;
